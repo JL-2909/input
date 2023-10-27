@@ -1,0 +1,213 @@
+ 
+
+.container{
+    display: flex;
+    height:600px;
+    border: 1px solid black; 
+    box-shadow: 2PX 2PX 4PX 4PX;
+}
+.contenedor{
+    background-image: url('../imagen/imagen1.jpeg');
+    width: 75%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.caja{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(137, 43, 226, 0.438);
+    margin-top:-25px;
+ 
+}
+
+h2{
+    padding-top: 350px;
+    padding-left: 60px;
+    font-size: 30px;
+    color: white;   
+}
+.tex1{
+    padding-left: 60px;
+    width: 90%;
+    font-size: 14px;
+    color: white;
+}
+
+.tex2{
+    padding-left: 60px;
+    width: 90%;
+    font-size: 14px;
+    color: white;
+}
+
+hr{
+    width: 87%;
+}
+
+.contenedor2{
+   width: 20%;
+   height: 550px;  
+}
+
+h1{
+    font-size: 30px;
+    width: 80%;
+    padding-left: 30%;
+    padding-top: 30%;
+    color: blue;   
+}
+
+.tex3{
+   color: blue;
+   width: 80%;
+   font-size: 14px;
+   padding-left: 25%;  
+}
+
+form{
+    padding-left: 5%;
+   
+    
+}
+
+#email{
+    width: 100%;
+    height: 20px;
+   
+    
+}
+
+
+
+#password{
+    width: 100%;
+    height: 20px;
+   
+}
+
+label{
+    font-size: 12px;
+   
+    
+}
+
+#terms{
+    width: 5%;
+ 
+
+   
+}
+
+.parte{
+    position: relative;
+   
+}
+
+ 
+.part{
+    position: absolute;
+    top: -25px;
+    left: 70%;
+    font-size: 12px;
+    width: 50%;
+}
+
+.caja3{
+    border: 1px solid purple;
+    border-radius: 20px;
+    width: 80%;
+    height: 30px;
+    background: purple;  
+}
+
+.caja3-1{
+    text-align: center;
+    padding-top: 5px;
+    color: white;   
+}
+
+.caja4{
+   padding-left: 80px;
+   padding-top: 30px;
+}
+
+.img1{
+    padding-left: 50px;
+    padding-top: 20px;
+    
+}
+
+.img2{
+    width: 100%;
+}
+.tex4{
+    padding-top: 70px;
+    padding-left: 60px;
+    font-size: 12px;
+    width: 80%;
+}
+
+
+@media only screen and (max-width:768px){
+    .tex1{
+        width: 65%;
+        font-size: 12px; 
+    }
+
+    .parte{
+        position: relative;
+       
+    }
+    
+     
+    .part{
+        position: absolute;
+        top: 10px;
+        left: 10%;
+        font-size: 12px;
+        width: 50%;
+    }
+    .caja4{
+        padding-left: 10px;
+        padding-top: 70px;
+     }
+
+     .img1{
+        padding-left: 10px;
+    }
+     .tex4{
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 12px;
+        width: 80%;
+    }
+   
+}@media only screen and (max-width:400px){
+
+    h2{
+        padding-top: 200px;
+       
+          
+    }
+    h1{
+        padding-left: 10%;     
+    }
+    .tex3{
+        
+        padding-left: 15%;  
+     }
+
+     .tex4{
+        padding-top: 5px;
+        padding-left: 1px;
+        font-size: 10px;
+      
+    }
+}
+
+
+
+
+
